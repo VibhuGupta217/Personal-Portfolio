@@ -2,13 +2,15 @@
 <html>
 <head>
     <style>
-        body {
-            background-image: url('"C:\Users\admin\Desktop\AdobeStock_81556974.webp"'); /* Set the URL of your image */
-            background-size: cover; /* Adjust the size to cover the entire viewport */
+        .custom-background {
+            background-image: url('your-image.jpg');
+            background-size: cover;
         }
     </style>
 </head>
 <body>
-    <!-- Your content goes here -->
+    <div class="custom-background">
+        <!-- Your content goes here -->
+    </div>
 </body>
 </html>
