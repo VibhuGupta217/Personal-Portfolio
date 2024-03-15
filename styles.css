@@ -3,3 +3,7 @@ body {
     color: rgb(255, 0, 0);
     font-size: 200%;
 }
+
+img {
+    width: 400px;
+}
