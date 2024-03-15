@@ -6,47 +6,6 @@
 </head>
 <body bgcolor='#FDF2E9 '>
     <h1>Contact Us</h1>
-    <form id="contactForm" action="submit.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
-
-    <script>
-        document.getElementById('contactForm').addEventListener('submit', function (e) {
-            e.preventDefault(); // Prevent the form from submitting
-
-            // Get the input values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-
-            // Create a text file content
-            const textContent = `Name: ${name}\nEmail: ${email}\nMessage:\n${message}`;
-
-            // Create a Blob with the text content
-            const blob = new Blob([textContent], { type: 'text/plain' });
-
-            // Create a download link
-            const a = document.createElement('a');
-            a.href = URL.createObjectURL(blob);
-            a.download = 'contact_info.txt';
-            a.style.display = 'none';
-
-            // Add the link to the page and trigger a click event to download the file
-            document.body.appendChild(a);
-            a.click();
-
-            // Remove the link from the page
-            document.body.removeChild(a);
-        });
-    </script>
+   Linkedin link: <a href="https://www.linkedin.com/in/vibhu-gupta-6bb122254/">VIBHU GUPTA LINKEDIN</a>
 </body>
 </html>
