@@ -3,6 +3,7 @@ body {
     color: aliceblue;
     font-size: 200%;
     border: 1px solid aliceblue;
+    padding: 10px;
 }
 img {
     width: 400px;
@@ -10,4 +11,8 @@ img {
 h1 {
     font-weight: bold;
     text-decoration-line: underline;
+ }
+
+ a {
+    color: rgb(250, 0, 0);
  }
