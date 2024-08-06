@@ -7,10 +7,12 @@ body {
 }
 img {
     width: 400px;
+    margin: 0 auto;
 }
 h1 {
     font-weight: bold;
     text-decoration-line: underline;
+    text-align: center;
  }
 
  a {
