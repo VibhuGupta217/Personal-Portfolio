@@ -1,8 +1,8 @@
 body {
-    background-color: rgba(190, 16, 16, 0.884);
-    color: aliceblue;
+    background-color: #C5705D;
     border: 1px solid aliceblue;
     padding: 10px;
+    color: #F8EDE3;
 }
 
 #pfp {
@@ -20,5 +20,5 @@ h1 {
  }
 
  a {
-    color: rgb(0, 0, 0);
+    color: #D0B8A8;
  }
