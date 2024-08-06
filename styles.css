@@ -6,8 +6,12 @@ body {
 }
 
 #pfp {
-    width: 400px;
+
     margin: 0 auto;
+}
+
+#pfp img {
+    width: 400px;
 }
 h1 {
     font-weight: bold;
