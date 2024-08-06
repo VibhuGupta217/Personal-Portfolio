@@ -1,8 +1,8 @@
 body {
-    background-color: #C5705D;
-    border: 1px solid aliceblue;
+    background-color: #914F1E;
+    border: 1px solid #DEAC80;
     padding: 10px;
-    color: #F8EDE3;
+    color: #F7DCB9;
 }
 
 #pfp {
@@ -20,7 +20,7 @@ h1 {
  }
 
  a {
-    color: #DFD3C3;
+    color: #B5C18E;
  }
  @media (max-width: 600px) {
     #pfp img {
