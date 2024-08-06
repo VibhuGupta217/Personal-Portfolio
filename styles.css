@@ -9,10 +9,10 @@ body {
     display: flex;
     justify-content:center;
 }
-
 #pfp img {
     width: 400px;
 }
+
 h1 {
     font-weight: bold;
     text-decoration-line: underline;
@@ -21,4 +21,10 @@ h1 {
 
  a {
     color: #DFD3C3;
+ }
+ @media (max-width: 600px) {
+    #pfp img {
+        width: 80%;
+    }
+    
  }
