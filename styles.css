@@ -1,5 +1,5 @@
 body {
-    background-color: #914F1E;
+    background-color:black;
     padding: 10px;
     color: #F7DCB9;
     font-family:cursive;
@@ -10,7 +10,7 @@ body {
     justify-content:center;
 }
 #pfp img {
-    width: 400px;
+    width: 200px;
 }
 
 h1 {
@@ -28,6 +28,6 @@ h1 {
     }
     
  }
-nav {
-    background-color: black;
+#pfp {
+    background-color: #914F1E;
 }
