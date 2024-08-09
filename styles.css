@@ -31,7 +31,7 @@ a {
 
 
 @media (max-width: 600px) {
-    #pfp img {
+    .profile{
         width: 80%;
     }
     
