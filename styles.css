@@ -5,29 +5,34 @@ body {
     font-family:'Times New Roman', Times, serif;
 }
 
-#pfp {
-    display: flex;
-    justify-content:center;
-}
-#pfp img {
-    width: 200px;
+a {
+    color: #B5C18E;
 }
 
-h1 {
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #914F1E;
+    align-items: center;
+    font-size: 200%;    
+}
+
+.profile h1 {
     font-weight: bold;
     text-decoration-line: underline;
     text-align: center;
- }
+}
 
- a {
-    color: #B5C18E;
- }
- @media (max-width: 600px) {
+#pfp {
+    width: 200px;  
+    padding: 10px;
+}
+
+
+@media (max-width: 600px) {
     #pfp img {
         width: 80%;
     }
     
  }
-#pfp {
-    background-color: #914F1E;
-}
