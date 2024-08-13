@@ -12,7 +12,7 @@ a {
 .profile{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     background-color: #914F1E;
     align-items: center;
     font-size: 200%;    
